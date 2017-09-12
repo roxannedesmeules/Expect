@@ -2,7 +2,7 @@
 
 namespace mlleDesmeules\Expect;
 
-if (!function_exists('verify')) {
+if (!function_exists('expect')) {
 	
 	/**
 	 * Interface into Verify library and main set of assertions
@@ -22,7 +22,7 @@ if (!function_exists('verify')) {
 			case 2:
 				return new Expect(func_get_arg(0), func_get_arg(1));
 			default:
-				throw new \BadMethodCallException('verify() must be called with exactly 1 or 2 arguments.');
+				throw new \BadMethodCallException('expect() must be called with exactly 1 or 2 arguments.');
 		}
 	}
 	
