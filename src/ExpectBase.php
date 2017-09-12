@@ -97,7 +97,7 @@ abstract class ExpectBase
 	 * @param mixed $target
 	 * @param c     $constraint
 	 *
-	 * @return self
+	 * @return $this
 	 */
 	protected function expect ( $target, $constraint )
 	{
