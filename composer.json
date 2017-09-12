@@ -1,0 +1,27 @@
+{
+    "name": "mlledesmeules/expect",
+    "description": "BDD assertion library for PHPUnit and Codeception",
+	"keywords" : [
+		"bdd", "assertions", "phpunit", "codeception", "unit testing"
+	],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roxanne Desmeules",
+            "email": "roxanne.desmeules@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+	    "php" : ">=5.5.0"
+    },
+	"replace": {
+		"codeception/verify": "0.*"
+	},
+	"suggest": {
+		"codeception/specify": "Highly readable test code blocks for PHPUnit and Codeception"
+	},
+	"autoload": {
+		"files": ["src/function.php"]
+	}
+}
