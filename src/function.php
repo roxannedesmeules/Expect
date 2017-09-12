@@ -1,5 +1,7 @@
 <?php
 
+namespace mlleDesmeules\Expect;
+
 if (!function_exists('verify')) {
 	
 	/**
