@@ -1,6 +1,6 @@
 <?php
 
-namespace mlleDesmeules\Expect;
+namespace mlleDesmeules\Expect\src;
 
 use PHPUnit_Framework_Assert as a;
 use \InvalidArgumentException;
@@ -9,6 +9,40 @@ use \InvalidArgumentException;
  * Class Expect
  *
  * @package mlleDesmeules\Expect
+ *
+ * @property Expect $a         Chainable getter to improve the assertion readability.
+ * @property Expect $an        Chainable getter to improve the assertion readability.
+ * @property Expect $and       Chainable getter to improve the assertion readability.
+ * @property Expect $at        Chainable getter to improve the assertion readability.
+ * @property Expect $be        Chainable getter to improve the assertion readability.
+ * @property Expect $been      Chainable getter to improve the assertion readability.
+ * @property Expect $but       Chainable getter to improve the assertion readability.
+ * @property Expect $directory Indicates that the assertion following in the chain targets a directory.
+ * @property Expect $does      Chainable getter to improve the assertion readability.
+ * @property Expect $empty     Reports an error if the target is not empty
+ * @property Expect $exist     Reports an error if the file or directory specified by the target doesn't exists.
+ * @property Expect $false     Reports an error if the target is 'true'
+ * @property Expect $file      Indicates that the assertion following in the chain targets a file
+ * @property Expect $has       Chainable getter to improve the assertion readability.
+ * @property Expect $have      Chainable getter to improve the assertion readability.
+ * @property Expect $infinite  Reports an error if the target is not 'INF'
+ * @property Expect $is        Chainable getter to improve the assertion readability.
+ * @property Expect $json      Indicates that the assertion following in the chain targets JSON data
+ * @property Expect $length    Indicates that the assertion following in the chain targets a length
+ * @property Expect $NaN       Reports an error if the target is not 'NAN'
+ * @property Expect $not       Negates all assertions following in the chain
+ * @property Expect $null      Reports an error if the target is not 'null'
+ * @property Expect $of        Chainable getter to improve the assertion readability.
+ * @property Expect $readable  Reports an error if the file or directory specified by the target isn't readable
+ * @property Expect $same      Chainable getter to improve the assertion readability.
+ * @property Expect $that      Chainable getter to improve the assertion readability.
+ * @property Expect $throw     Reports an error if the target function doesn't throw an exception
+ * @property Expect $to        Chainable getter to improve the assertion readability.
+ * @property Expect $true      Reports an error if the target is 'false'
+ * @property Expect $which     Chainable getter to improve the assertion readability.
+ * @property Expect $with      Chainable getter to improve the assertion readability.
+ * @property Expect $writable  Reports an error if the file or directory specified by the target isn't readable
+ * @property Expect $xml       Indicates that the assertion following in the chain targets XML data
  */
 class Expect extends ExpectBase
 {

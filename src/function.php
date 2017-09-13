@@ -1,6 +1,6 @@
 <?php
 
-namespace mlleDesmeules\Expect;
+namespace mlleDesmeules\Expect\src;
 
 if (!function_exists('expect')) {
 	

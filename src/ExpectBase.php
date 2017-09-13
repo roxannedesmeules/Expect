@@ -1,5 +1,5 @@
 <?php
-namespace mlleDesmeules\Expect;
+namespace mlleDesmeules\Expect\src;
 
 use \InvalidArgumentException;
 use PHPUnit_Framework_Assert as a;
@@ -13,40 +13,6 @@ use PHPUnit_Framework_Constraint as c;
  *
  * @package mlleDesmeules\Expect
  * @abstract
- *
- * @property ExpectBase $a         Chainable getter to improve the assertion readability.
- * @property ExpectBase $an        Chainable getter to improve the assertion readability.
- * @property ExpectBase $and       Chainable getter to improve the assertion readability.
- * @property ExpectBase $at        Chainable getter to improve the assertion readability.
- * @property ExpectBase $be        Chainable getter to improve the assertion readability.
- * @property ExpectBase $been      Chainable getter to improve the assertion readability.
- * @property ExpectBase $but       Chainable getter to improve the assertion readability.
- * @property ExpectBase $directory Indicates that the assertion following in the chain targets a directory.
- * @property ExpectBase $does      Chainable getter to improve the assertion readability.
- * @property ExpectBase $empty     Reports an error if the target is not empty
- * @property ExpectBase $exist     Reports an error if the file or directory specified by the target doesn't exists.
- * @property ExpectBase $false     Reports an error if the target is 'true'
- * @property ExpectBase $file      Indicates that the assertion following in the chain targets a file
- * @property ExpectBase $has       Chainable getter to improve the assertion readability.
- * @property ExpectBase $have      Chainable getter to improve the assertion readability.
- * @property ExpectBase $infinite  Reports an error if the target is not 'INF'
- * @property ExpectBase $is        Chainable getter to improve the assertion readability.
- * @property ExpectBase $json      Indicates that the assertion following in the chain targets JSON data
- * @property ExpectBase $length    Indicates that the assertion following in the chain targets a length
- * @property ExpectBase $NaN       Reports an error if the target is not 'NAN'
- * @property ExpectBase $not       Negates all assertions following in the chain
- * @property ExpectBase $null      Reports an error if the target is not 'null'
- * @property ExpectBase $of        Chainable getter to improve the assertion readability.
- * @property ExpectBase $readable  Reports an error if the file or directory specified by the target isn't readable
- * @property ExpectBase $same      Chainable getter to improve the assertion readability.
- * @property ExpectBase $that      Chainable getter to improve the assertion readability.
- * @property ExpectBase $throw     Reports an error if the target function doesn't throw an exception
- * @property ExpectBase $to        Chainable getter to improve the assertion readability.
- * @property ExpectBase $true      Reports an error if the target is 'false'
- * @property ExpectBase $which     Chainable getter to improve the assertion readability.
- * @property ExpectBase $with      Chainable getter to improve the assertion readability.
- * @property ExpectBase $writable  Reports an error if the file or directory specified by the target isn't readable
- * @property ExpectBase $xml       Indicates that the assertion following in the chain targets XML data
  */
 abstract class ExpectBase
 {
